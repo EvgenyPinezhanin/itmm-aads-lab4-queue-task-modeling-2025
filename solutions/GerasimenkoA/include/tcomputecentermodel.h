@@ -8,6 +8,7 @@
 #define __TComputeCenterModel_H__
 
 #include <vector>
+#include <locale>
 
 #include <tqueue.h>
 
@@ -45,5 +46,6 @@ public:
   size_t GetCountStall() const noexcept { return CountStall; }
 
 };
+
 
 #endif
